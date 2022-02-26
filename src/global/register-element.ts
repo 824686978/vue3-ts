@@ -1,6 +1,7 @@
 import { App } from 'vue'
 import 'element-plus/dist/index.css'
 import {
+  ElAside,
   ElButton,
   ElCheckbox,
   ElForm,
@@ -11,6 +12,7 @@ import {
   ElTabPane,
   ElTabs
 } from 'element-plus'
+import { ElAlert } from 'element-plus/lib/components'
 
 const components = [
   ElButton,
@@ -21,7 +23,10 @@ const components = [
   ElTabs,
   ElTabPane,
   ElCheckbox,
-  ElLink
+  ElLink,
+  ElAlert,
+  ElAside,
+  ElTabPane
 ]
 
 export default function (app: App): void {
